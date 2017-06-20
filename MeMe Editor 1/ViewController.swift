@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UITextFieldDelegate {
-
+    // Outlets
     @IBOutlet weak var albumButton: UIButton!
     @IBOutlet weak var memeViewer: UIImageView!
     @IBOutlet weak var cameraButton: UIBarButtonItem!
