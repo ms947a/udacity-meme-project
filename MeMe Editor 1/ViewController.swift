@@ -29,7 +29,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     }
 
     //Text settings
-    let memeTextAttributes = [ NSStrokeWidthAttributeName: -3.0, NSForegroundColorAttributeName: UIColor.red, NSStrokeColorAttributeName: UIColor.black, NSFontAttributeName: UIFont(name: "Arial", size: 30)!] as [String: Any]
+    let memeTextAttributes = [ NSStrokeWidthAttributeName: -3.0, NSForegroundColorAttributeName: UIColor.red, NSStrokeColorAttributeName: UIColor.blue, NSFontAttributeName: UIFont(name: "Arial", size: 30)!] as [String: Any]
     
     //Album Feature
     @IBAction func albumButton(_ sender: UIButton) {
